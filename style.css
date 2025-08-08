@@ -11,6 +11,7 @@ body {
     width: 300px;
     background-color: #7D8D86;
     margin: 100px auto;
+    border-radius: 20px;
 }
 
 .dice{
