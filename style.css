@@ -1,53 +1,166 @@
 body {
-            background-color: #E7EFC7;
-        }
+    background-color: #E7EFC7;
+}
 
-        .heading{
-            text-align: center;
-        }
+.heading {
+    text-align: center;
+}
 
-        .container {
-            height: 300px;
-            width: 300px;
-            background-color: #7D8D86;
-            margin: 100px auto;
-        }
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: #7D8D86;
+    margin: 100px auto;
+}
 
-        .btn{
-            height: 170px;
-            width: 150px;
-            background-color: #8A784E;
-        }
+.dice{
+    height: 300px;
+}
 
-        .btn1{
-            position: absolute;
-            left: 150px;
-        }
+.btn {
+    height: 170px;
+    width: 150px;
+    background-color: #8A784E;
+}
 
-        .btn2{
-            position: absolute;
-            top: 60px;
-            left: 150px;
-        }
+.img{
+    height: 150px;
+}
 
-        .btn3{
-            position: absolute;
-            top: 60px;
-            right: 150px;
-        }
+.btn1 {
+    position: absolute;
+    left: 150px;
+}
 
-        .btn4{
-            position: absolute;
-            right: 150px;
+.btn2 {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
 
-        }
+.btn3 {
+    position: absolute;
+    top: 60px;
+    right: 150px;
+}
 
-        .player{
-            display: flex;
-            position: absolute;
-            bottom: 0px;
-            margin-left: 40px;
-            margin-top: 50px;
-            padding: 7px;
-            border-radius: 9px;
-        }
+.btn4 {
+    position: absolute;
+    right: 150px;
+
+}
+
+.player {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 7px;
+    border-radius: 9px;
+}
+
+@media screen and (max-width:750px){
+    .container{
+        height: 200px;
+        width: 200px;
+        margin: 200px auto;
+        border-radius: 15px;
+    }
+
+    .dice{
+        height: 200px;
+    }
+
+    .btn {
+    height: 130px;
+    width: 120px;
+    background-color: #8A784E;
+}
+
+.img{
+    height: 118px;
+}
+
+    .player {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.btn1 {
+    position: absolute;
+    left: 130px;
+    bottom: 40px;
+}
+
+.btn2 {
+    position: absolute;
+    top: 70px;
+    left: 130px;
+}
+
+.btn3 {
+    position: absolute;
+    top: 70px;
+    right: 130px;
+}
+
+.btn4 {
+    position: absolute;
+    right: 130px;
+    bottom: 40px;
+}
+}
+
+@media (min-width: 751px) and (max-width: 992px){
+    .heading {
+    margin: 0;
+}
+
+    .container{
+        height: 250px;
+        width: 250px;
+        margin: 200px auto;
+        border-radius: 15px;
+    }
+    .dice{
+        height: 250px;
+    }
+
+    .btn {
+    height: 150px;
+    width: 130px;
+    background-color: #8A784E;
+}
+
+.img{
+    height: 138px;
+}
+
+.player {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 36px;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.btn1 {
+    position: absolute;
+    left: 150px;
+    bottom: 40px;
+}
+
+.btn4 {
+    position: absolute;
+    right: 150px;
+    bottom: 40px;
+}
+}
