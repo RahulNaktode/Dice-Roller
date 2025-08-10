@@ -14,7 +14,7 @@ body {
     border-radius: 20px;
 }
 
-.dice{
+.dice {
     height: 300px;
 }
 
@@ -24,7 +24,7 @@ body {
     background-color: #8A784E;
 }
 
-.img{
+.img {
     height: 150px;
 }
 
@@ -61,119 +61,110 @@ body {
     border-radius: 9px;
 }
 
-@media screen and (max-width:750px){
-    .container{
+@media screen and (max-width:750px) {
+    .container {
         height: 200px;
         width: 200px;
         margin: 200px auto;
         border-radius: 15px;
     }
 
-    .dice{
+    .dice {
         height: 200px;
     }
 
     .btn {
-    height: 130px;
-    width: 120px;
-    background-color: #8A784E;
-}
+        height: 130px;
+        width: 120px;
+        background-color: #8A784E;
+    }
 
-.img{
-    height: 118px;
-}
+    .img {
+        height: 118px;
+    }
 
     .player {
-    display: flex;
-    position: absolute;
-    bottom: 0px;
-    margin-left: 30px;
-    margin-top: 50px;
-    padding: 5px;
-    border-radius: 7px;
+        margin-left: 30px;
+    }
+
+    .btn1 {
+        position: absolute;
+        left: 50px;
+        bottom: 40px;
+    }
+
+    .btn2 {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    .btn3 {
+        position: absolute;
+        top: 70px;
+        right: 50px;
+    }
+
+    .btn4 {
+        position: absolute;
+        right: 50px;
+        bottom: 40px;
+    }
 }
 
-.btn1 {
-    position: absolute;
-    left: 50px;
-    bottom: 40px;
-}
-
-.btn2 {
-    position: absolute;
-    top: 70px;
-    left: 50px;
-}
-
-.btn3 {
-    position: absolute;
-    top: 70px;
-    right: 50px;
-}
-
-.btn4 {
-    position: absolute;
-    right: 50px;
-    bottom: 40px;
-}
-}
-
-@media (min-width: 751px) and (max-width: 992px){
+@media (min-width: 751px) and (max-width: 992px) {
     .heading {
-    margin: 0;
-}
+        margin: 0;
+    }
 
-    .container{
+    .container {
         height: 250px;
         width: 250px;
         margin: 200px auto;
         border-radius: 15px;
     }
-    .dice{
+
+    .dice {
         height: 250px;
     }
 
     .btn {
-    height: 150px;
-    width: 130px;
-    background-color: #8A784E;
-}
+        height: 150px;
+        width: 130px;
+        background-color: #8A784E;
+    }
 
-.img{
-    height: 138px;
-}
+    .img {
+        height: 138px;
+    }
 
-.player {
-    display: flex;
-    position: absolute;
-    bottom: 0px;
-    margin-left: 36px;
-    margin-top: 50px;
-    padding: 5px;
-    border-radius: 7px;
-}
+    .player {
+        margin-left: 36px;
+        padding: 5px;
+        border-radius: 7px;
+    }
 
-.btn1 {
-    position: absolute;
-    left: 80px;
-    bottom: 40px;
-}
+    .btn1 {
+        position: absolute;
+        left: 80px;
+        bottom: 40px;
+    }
 
-.btn2 {
-    position: absolute;
-    top: 70px;
-    left: 80px;
-}
+    .btn2 {
+        position: absolute;
+        top: 70px;
+        left: 80px;
+    }
 
-.btn3 {
-    position: absolute;
-    top: 70px;
-    right: 80px;
-}
+    .btn3 {
+        position: absolute;
+        top: 70px;
+        right: 80px;
+    }
 
-.btn4 {
-    position: absolute;
-    right: 80px;
-    bottom: 40px;
-}
+    .btn4 {
+        position: absolute;
+        right: 80px;
+        bottom: 40px;
+    }
 }
