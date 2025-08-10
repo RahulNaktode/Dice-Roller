@@ -95,25 +95,25 @@ body {
 
 .btn1 {
     position: absolute;
-    left: 130px;
+    left: 50px;
     bottom: 40px;
 }
 
 .btn2 {
     position: absolute;
     top: 70px;
-    left: 130px;
+    left: 50px;
 }
 
 .btn3 {
     position: absolute;
     top: 70px;
-    right: 130px;
+    right: 50px;
 }
 
 .btn4 {
     position: absolute;
-    right: 130px;
+    right: 50px;
     bottom: 40px;
 }
 }
@@ -155,13 +155,25 @@ body {
 
 .btn1 {
     position: absolute;
-    left: 150px;
+    left: 80px;
     bottom: 40px;
+}
+
+.btn2 {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+
+.btn3 {
+    position: absolute;
+    top: 70px;
+    right: 80px;
 }
 
 .btn4 {
     position: absolute;
-    right: 150px;
+    right: 80px;
     bottom: 40px;
 }
 }
